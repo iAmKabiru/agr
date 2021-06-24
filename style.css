@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+.header {
+    color: green;
+    padding: 2px;
+    margin-left: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    background-color: green;
+    /* overflow-x: scroll; */
+    padding: 20;
+    position: sticky;
+    top: 0;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.banner {
+    height: 100vh;
+    width: inherit;
+    background:url('./img/farmland.jpg');
+    background-size: cover;
+    font-size: xx-large;
+    color: white;
+}
+
+.transparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: inherit;
+    background:rgba(76, 175, 80, 0.6)
+}
+
+.footer {
+    /* height: 50px; */
+    background-color: rgb(78, 76, 76);
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-seeds {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featured-seed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
