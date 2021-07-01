@@ -1,2 +1,0 @@
-# agr
-agricsite.netlify.app
